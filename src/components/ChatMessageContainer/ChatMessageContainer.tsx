@@ -94,7 +94,6 @@ const ChatMessageContainer = (props:any) => {
                                              </>
                                          )}
                                         
-                                        
                                         <div className="msg-bubble">
                                             <div className="msg-info">
                                             <div className="msg-info-name">{activeInterlocutor?.username}</div>
@@ -112,15 +111,10 @@ const ChatMessageContainer = (props:any) => {
                                 <>
 
                                     <div className="chat right-msg">
-                                        
-
                                         <div className="msg-bubble">
-                                            <div className="msg-info">      
-                                                                            
-                                            <div className="msg-info-name">{props?.userName || ''}</div>
-                                            
+                                            <div className="msg-info">                                     
+                                            <div className="msg-info-name">{props?.userName || ''}</div> 
                                             </div>
-
                                             <div className="msg-text">
                                                 {item.content}
                                             </div>
@@ -129,7 +123,6 @@ const ChatMessageContainer = (props:any) => {
                                             </div>
                                         </div>
                                     </div>
-
                                 </>
                             )}
                         
